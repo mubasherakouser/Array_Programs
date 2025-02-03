@@ -51,6 +51,23 @@ public class Merge_Sorted_Array {
 				}
 				return c;
 		}
+//in zigzag format merging
+	//static int[] iszigzag(int a[],int b[]) {
+		//int[] c=new int[a.length+b.length];
+		//int in=0;
+		//for(int i=0;i<=c.length-1/2;i++) {
+			//if(i<=a.length-1) {
+			//c[in]=a[i];
+			//in++;
+			//}
+			//if(i<=b.length-1) {
+			//	c[in]=b[i];
+			//	in++;
+			//	}
+		//}
+		
+		//return c;
+	//}
 	}
 
 
