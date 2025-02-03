@@ -18,24 +18,26 @@ public class Merge_Sorted_Array {
 			for(int i=0;i<=b.length-1;i++){
 			 b[i]=sc.nextInt();
 			 }
-		     for(int i=0;i<=a.length-1;i++) {
-		        	for(int j=i+1;j<=a.length-1;j++) {
-		        		if(a[i]>a[j]) {
-		        			int temp=a[i];
-		        			a[i]=a[j];
-		        			a[j]=temp;
-		        		}
-		        	}	
-		        }
-		        for(int i=0;i<=b.length-1;i++) {
-		        	for(int j=i+1;j<=b.length-1;j++) {
-		        		if(b[i]>b[j]) {
-		        			int temp=b[i];
-		        			b[i]=b[j];
-		        			b[j]=temp;
-		        		}
-		        	}	
-		        }
+//		     for(int i=0;i<=a.length-1;i++) {
+//		        	for(int j=i+1;j<=a.length-1;j++) {
+//		        		if(a[i]>a[j]) {
+//		        			int temp=a[i];
+//		        			a[i]=a[j];
+//		        			a[j]=temp;
+//		        		}
+//		        	}	
+//		        }
+//		        for(int i=0;i<=b.length-1;i++) {
+//		        	for(int j=i+1;j<=b.length-1;j++) {
+//		        		if(b[i]>b[j]) {
+//		        			int temp=b[i];
+//		        			b[i]=b[j];
+//		        			b[j]=temp;
+//		        		}
+//		        	}	
+//		        }
+			Arrays.sort(a);
+			Arrays.sort(b);
 			int c[]=ismerge(a,b);
 			System.out.println(Arrays.toString(c));
 			}
