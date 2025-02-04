@@ -19,7 +19,7 @@ public class Arrays_P{
 					b[j]=true;
 				}
 			}
-				System.out.println(count);
+				System.out.println(a[i]+"-"+count);
 		}		
 		}
 	}
