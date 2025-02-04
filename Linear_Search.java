@@ -13,7 +13,7 @@ public class Arrays_P {
         boolean found=false;
         for(int i=0;i<=a.length-1;i++) {
         	if(a[i]==n) {
-        		System.out.println("found");
+        		System.out.println("found at "+i);
         		found=true;
         		break;
         	}	
