@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Duplicate {    
    public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
@@ -8,6 +9,7 @@ public class Duplicate {
 		for(int i=0;i<=a.length-1;i++){
 			a[i]=sc.nextInt();
 		}
+		findDuplicates(a);
    }
     static void findDuplicates(int[] arr) {    
         for (int i = 0; i < arr.length; i++) {    
