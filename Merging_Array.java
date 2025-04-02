@@ -10,7 +10,7 @@ public class Arrays_P{
 	for(int i=0;i<=a.length-1;i++){
 	 a[i]=sc.nextInt();
 }
-	System.out.println("enter sizeof 1st array");
+	System.out.println("enter sizeof 2nd array");
 	int size2=sc.nextInt();
 	int b[]=new int[size2];
 	System.out.println("Enter array elements");
